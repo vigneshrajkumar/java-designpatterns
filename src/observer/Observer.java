@@ -1,5 +1,5 @@
 package observer;
 
 public interface Observer {
-	public void update(double ibmPrice);
+	void update(String newMode);
 }
