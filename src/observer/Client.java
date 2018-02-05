@@ -13,7 +13,7 @@ public class Client implements Observer {
 	
 	private static int clientIDTracker;
 	
-	Client(Subject sub){
+	public Client(Subject sub){
 		this.subject = sub;
 		clientID = ++clientIDTracker;
 		subject.register(this);

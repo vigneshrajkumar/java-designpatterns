@@ -1,4 +1,6 @@
-package observer;
+package main;
+
+import observer.*;
 
 public class Main {
 
@@ -10,14 +12,7 @@ public class Main {
 		Client c2 = new Client(s1);
 		Client c3 = new Client(s1);
 		
-		
-		
 		s1.updateMode("Hide!");
-		
-		
-		s1.updateMode("Stay Put!!");
-		
-		s1.updateMode("Attack!!");
 				
 
 	}

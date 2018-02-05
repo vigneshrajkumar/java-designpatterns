@@ -13,7 +13,7 @@ public class Server implements Subject {
 	
 	ArrayList<Observer> observers = new ArrayList<>();
 	
-	Server(String defaultMessage){
+	public Server(String defaultMessage){
 		serverID = ++serverIDTracker;
 		this.attackMode = defaultMessage;
 		System.out.println("I: New Server Created | ID:" + this.serverID + " Mode:" + this.attackMode);
